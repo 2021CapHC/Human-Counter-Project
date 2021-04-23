@@ -1,0 +1,30 @@
+______ _____  ___ ______  ___  ___ _____ 
+| ___ \  ___|/ _ \|  _  \ |  \/  ||  ___|
+| |_/ / |__ / /_\ \ | | | | .  . || |__  
+|    /|  __||  _  | | | | | |\/| ||  __| 
+| |\ \| |___| | | | |/ /  | |  | || |___ 
+\_| \_\____/\_| |_/___/   \_|  |_/\____/ 
+                                         
+╦ ╦╦ ╦╔╦╗╔═╗╔╗╔  ╔═╗╔═╗╦ ╦╔╗╔╔╦╗╔═╗╦═╗
+╠═╣║ ║║║║╠═╣║║║  ║  ║ ║║ ║║║║ ║ ║╣ ╠╦╝
+╩ ╩╚═╝╩ ╩╩ ╩╝╚╝  ╚═╝╚═╝╚═╝╝╚╝ ╩ ╚═╝╩╚═
+***************************************************
+Setup for Daily Emailing Protcal for data
+ 
+This will schedules to run the program every day at the time you set 
+IN CMD WINDOW:     hickory schedule EmailFunction.py --every=day@10:00PM
+
+This shows you the status of the schedule
+IN CMD WINDOW:     hickory status
+
+This ends the schedule for running the program once a day at a certain time
+IN CMD WINDOW:     hickory kill EmailFunction.py
+
+**************************************************************
+Setup up Human Counder for Single Entry Door (Hall Way Entrance)
+
+CHANGE DIRECTORY TO: Desktop/FinalCodesHumanCounter
+Run Program:    python3 HumanCounter_SingleEntry.py
+End Program:    CTRL + C
+
+	

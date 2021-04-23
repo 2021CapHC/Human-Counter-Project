@@ -8,7 +8,7 @@
 
 ╔═╗╔╗╔╦ ╦╦
 ║ ║║║║╚╦╝║
-╚═╝╝╚╝ ╩ ╩
+╚═╝╝╚╝ ╩ ╩ DOUBLE DOOR LEFT
                                                                                    
 """
 # Python code to illustrate Sending mail with attachments
@@ -48,9 +48,9 @@ msg.attach(MIMEText(body, 'plain'))
 
 # open the file to be sent
 #filename is the directory
-filename = "/home/pi/Desktop/FinalCodesHumanCounter/SingleEntryData.txt"
+filename = "/home/pi/Desktop/FinalCodesHumanCounter/DOUBLEDOORentryRIGHTData.txt"
 #name of the csv
-attachment = open("/home/pi/Desktop/FinalCodesHumanCounter/SingleEntryData.txt", "rb")
+attachment = open("/home/pi/Desktop/FinalCodesHumanCounter/DOUBLEDOORentryRIGHTData.txt", "rb")
 
 # instance of MIMEBase and named as p
 p = MIMEBase('application', 'octet-stream')

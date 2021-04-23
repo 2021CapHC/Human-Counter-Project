@@ -25,8 +25,10 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-sender_email = "seniordesignproject458cv@gmail.com"
-receiver_email = "m.iqbal7225@gmail.com"
+#the email you want to use to send the file
+sender_email = "putyouremailhere@gmail.com"
+# the email that will receive the data
+receiver_email = "putreceiveremailhere@gmail.com"
 
 # instance of MIMEMultipart
 msg = MIMEMultipart()
@@ -76,7 +78,7 @@ s.starttls()
 
 # Authentication
 #password of your email address
-s.login(sender_email, "Classof2021")
+s.login(sender_email, "yourpasswordhere")
 
 # Converts the Multipart msg into a string
 text = msg.as_string()
